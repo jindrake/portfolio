@@ -1,16 +1,18 @@
 <template>
   <div id='app'>
-    <profile-card/>
+    <profile-card />
+    <content-container />
   </div>
 </template>
 
 <script>
 import ProfileCard from './components/ProfileCard'
-
+import ContentContainer from './components/ContentContainer'
 export default {
   name: 'App',
   components: {
-    ProfileCard
+    ProfileCard,
+    ContentContainer
   }
 }
 </script>

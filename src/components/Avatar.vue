@@ -29,13 +29,11 @@ export default {
   height: 250px;
   border-radius: 50%;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   #avatar > img, #avatar {
     width: 100px;
     height: 100px;
   }
-}
-@media only screen and (min-width: 768px) {
 }
 @media only screen and (min-width: 992px) {
 }

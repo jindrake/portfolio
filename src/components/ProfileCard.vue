@@ -3,7 +3,8 @@
     <avatar/>
     <br>
     <div id='name'>
-      JETHRO TANJAY
+      JETHRO TANJAY <br>
+      <div class='light'>Software Engineer</div>
     </div>
   </div>
 </template>
@@ -34,10 +35,14 @@ export default {
   text-align: center;
   font-size: 30px;
 }
+.light {
+  color: rgb(221, 221, 221);
+  font-size: 20px;
+}
 #name {
   color: white;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   #card {
     height: 200px;
     width: 100%;
@@ -47,8 +52,9 @@ export default {
     margin-top: -100px;
     color: white;
   }
-}
-@media only screen and (min-width: 768px) {
+  .light {
+    font-size: 13px;
+  }
 }
 @media only screen and (min-width: 992px) {
 }
