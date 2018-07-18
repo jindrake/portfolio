@@ -37,7 +37,7 @@
       <div id="projects">
         Projects will be up soon
         <br>
-        <img src="../assets/hourglass_loader.gif" >
+        <img src="https://res.cloudinary.com/dhc9nls3o/image/upload/v1531918102/hourglass_loader.gif" >
       </div>
     </div>
   </div>

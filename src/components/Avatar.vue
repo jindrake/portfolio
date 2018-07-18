@@ -1,6 +1,6 @@
 <template>
   <div id='avatar'>
-    <img src="../assets/dp.jpg" alt="Jethro Tanjay" />
+    <img src="https://res.cloudinary.com/dhc9nls3o/image/upload/v1531918174/dp.jpg" alt="Jethro Tanjay" />
   </div>
 </template>
 
